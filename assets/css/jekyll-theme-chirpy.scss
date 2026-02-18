@@ -12,3 +12,15 @@
 .post-meta .readtime {
   display: none !important;
 }
+
+/* Tone down post navigation hover color (Older/Newer) */
+.post-navigation a.btn.btn-outline-primary:hover {
+  background-color: #dbe3ee !important;
+  border-color: #afbccd !important;
+  color: #2f3a4a !important;
+}
+
+.post-navigation a.btn.btn-outline-primary:hover::before,
+.post-navigation a.btn.btn-outline-primary:hover p {
+  color: #2f3a4a !important;
+}
