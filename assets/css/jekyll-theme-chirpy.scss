@@ -1,0 +1,14 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Hide estimated reading time text in post metadata */
+.post-meta .readtime {
+  display: none !important;
+}
