@@ -1,5 +1,5 @@
 ﻿---
-title: "면접 후기에 가까운 복기"
+title: "면접 후기 (1)"
 date: 2026-02-19 21:00:00 +0900
 categories: [Interview, CS]
 tags: [interview, memory]
