@@ -116,6 +116,8 @@ private void sendSafely(WebSocketSession session, TextMessage message) {
 ### 2) 기본: `ConcurrentWebSocketSessionDecorator` 사용 (Spring 제공)
 
 Spring은 동시 send와 버퍼링을 제어하기 위한 데코레이터를 제공한다.
+내부 동작을 코드 기준으로 자세히 보고 싶다면
+[`ConcurrentWebSocketSessionDecorator 내부 구현을 알아보자`]({% post_url 2026-02-19-concurrentwebsocketsessiondecorator-internals %})를 이어서 보면 된다.
 
 ```java
 import org.springframework.web.socket.WebSocketSession;
