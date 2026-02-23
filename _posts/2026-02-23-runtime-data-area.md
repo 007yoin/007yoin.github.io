@@ -25,6 +25,9 @@ Runtime Data Area는 JVM이 프로그램을 실행하는 동안 사용하는 메
 4. PC Register
 5. Native Method Stack
 
+![JVM Runtime Data Area](/assets/img/posts/runtime-data-area/java-runtime-data-area-1.png)
+_JVM Runtime Data Area_
+
 ---
 
 ## 1) Method Area (메서드 영역)
